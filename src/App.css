@@ -271,11 +271,11 @@ html{
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: javascript 2s forwards;
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .htmlcss{
@@ -284,32 +284,32 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 60%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .react{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s react forwards;
 }
-@keyframes photoshop {
+@keyframes react {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 72%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .express{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s express forwards;
 }
-@keyframes wordpress {
+@keyframes express {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 70%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .reduxtoolkit{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s reduxtoolkit forwards;
 }
-@keyframes drupal {
+@keyframes reduxtoolkit {
     0%{width: 0%;}
     100%{width: 55%;}
 }
@@ -329,7 +329,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .creatividad{
@@ -338,7 +338,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .dedicacion{
@@ -347,7 +347,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .proyect{
@@ -356,7 +356,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 80%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
